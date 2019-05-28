@@ -1,0 +1,14 @@
+
+Steps to be Followed for the Setup Of Kafka Server 
+
+ 1) Download the Kafka package 
+ 2) Unzip the Kafka package 
+ 3) Check for prerequisite(eg. jre which is rquired 
+				to run Kafka) 
+      a) Command - "java -version" can be used to 
+	 check whether jre is present.
+      b) If not present install jre by running command - 
+	"sudo apt-getupdate" and
+ 	"sudo apt-get install default-jre".
+ 4) Invoke the kafkasetup.py script to setup 
+    the kafka server.

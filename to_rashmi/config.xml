@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+  <name>kafka_config</name>
+  <version>2.11-2.1.0</version>
+  <description>Configuration file for creating Kafka topics</description>
+  <ip_address>
+    <ip_addr ip="10.165.87.238"></ip_addr>
+  </ip_address>
+  <topics>
+    <topic name="groundtruthdata"></topic>
+    <topic name="predicteddata"></topic>
+    <topic name="roscallbackmessage"></topic>
+  </topics>
+</config>
+  
+
